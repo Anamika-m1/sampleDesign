@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+<style>
+    .fira-sans-condensed-extralight {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+    .clip-bg {
+    clip-path: polygon(0 0,93% 0, 6% 100%, 0 100%);
+}
+.service-card {
+  transition: transform 2s ease-in-out;
+}
+
+.service-card:hover {
+  transform: rotate(360deg);
+}
+</style>
+
+</head>
+<body>
+    <div id="assignment" class="relative overflow-hidden bg-cyan-600">
+        <!-- Background with diagonal division -->
+        <div class="absolute inset-0 bg-blue-950 clip-bg"></div>
+        
+        <!-- Main content -->
+        <div class="relative z-10 container mx-auto text-center py-1 pb-12 flex items-start flex-col px-24">
+            <h2 class="text-5xl font-normal text-white uppercase mb-20 fira-sans-condensed-extralight leading-loose">Our Services</h2>
+            
+            <!-- Services container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-6 rounded-md shadow-lg service-card flex flex-col gap-2">
+                    <div class="flex justify-center -mt-16">
+                        <!-- Icon  -->
+                        <img src="icon3.jpg" alt="Emergency Plumbing" class="w-24 h-24 object-cover rounded-full border-4 border-blue-950">
+                    </div>
+                    <h3 class="text-2xl font-bold mt-4 mb-2 text-sky-950">Emergency Plumbing Services</h3>
+                    <p class="text-md text-[1.2rem] font-medium text-blue-950 mb-4">Our plumbers are ready to go 24/7 for emergencies - including nights, weekends and holidays.</p>
+                    <a href="#" class="text-blue-950 font-bold text-[1.2rem] hover:underline fira-sans-condensed-extralight">Explore this service &gt;</a>
+                </div>
+    
+                <!-- Service 2 -->
+                <div class="bg-white p-6 rounded-md shadow-lg service-card flex flex-col gap-2">
+                    <div class="flex justify-center -mt-16">
+                        <!-- Icon  -->
+                        <img src="icon1.jpg" alt="Emergency Plumbing" class="w-24 h-24 object-cover rounded-full border-4 border-blue-950">
+                    </div>
+                    <h3 class="text-2xl font-bold mt-4 mb-2 text-sky-950">Plumbing and Drains</h3>
+                    <p class="text-md text-[1.2rem] font-medium text-blue-950 mb-4">As the largest plumbing and drain service company, we make thousands of repairs every day.</p>
+                    <a href="#" class="text-blue-950 font-bold text-[1.2rem] hover:underline fira-sans-condensed-extralight">Explore this service &gt;</a>
+                </div>
+    
+                <!-- Service 3 -->
+                <div class="bg-white p-6 rounded-md shadow-lg service-card flex flex-col gap-2">
+                    <div class="flex justify-center -mt-16">
+                        <!-- Icon  -->
+                        <div class="w-24 h-24 rounded-full bg-white border-4 border-blue-950 flex items-center justify-center">
+                            <img src="rain.png" alt="Emergency Plumbing" class="w-20 h-20 object-cover">
+                        </div>
+                       </div>
+                    <h3 class="text-2xl font-bold mt-4 mb-2 text-sky-950">Water Damage</h3>
+                    <p class="text-md text-[1.2rem] font-medium text-blue-950 mb-4">Our teams are equipped with state-of-the-art water extraction and cleanup equipment.</p>
+                    <a href="#" class="text-blue-950 font-bold text-[1.2rem] hover:underline fira-sans-condensed-extralight">Explore this service &gt;</a>
+                </div>
+    
+                <!-- Service 4 -->
+                <div class="bg-white p-6 rounded-md shadow-lg service-card flex flex-col gap-2">
+                    <div class="flex justify-center -mt-16">
+                        <!-- Icon -->
+                        <img src="icon2.jpg" alt="Emergency Plumbing" class="w-24 h-24 object-cover rounded-full border-4 border-blue-950">
+                    </div>
+                    <h3 class="text-2xl font-bold mt-4 mb-2 text-sky-950">Water Heaters</h3>
+                    <p class="text-md text-[1.2rem] font-medium text-blue-950 mb-4">Trust Roto-Rooter for repair and replacement of gas, electric, and tankless water heaters.</p>
+                    <a href="#" class="text-blue-950 font-bold text-[1.2rem] hover:underline fira-sans-condensed-extralight">Explore this service &gt;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
+
